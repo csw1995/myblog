@@ -2,6 +2,8 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { graphql } from 'gatsby'
 
+import Layout from '../components/Layout'
+
 import Entry from '../components/resume/Entry'
 import Experience from '../components/resume/Experience'
 import Education from '../components/resume/Education'
@@ -89,13 +91,15 @@ const ResumePage = ({ data }) => {
   const { frontmatter } = data.markdownRemark
 
   return (
-    <ResumePageTemplate
-      image={frontmatter.image}
-      title={frontmatter.title}
-      subtitle={frontmatter.subtitle}
-      description={frontmatter.description}
-      intro={frontmatter.intro}
-    />
+    <Layout>
+      <ResumePageTemplate
+        image={frontmatter.image}
+        title={frontmatter.title}
+        subtitle={frontmatter.subtitle}
+        description={frontmatter.description}
+        intro={frontmatter.intro}
+      />
+    </Layout>
   )
 }
 
