@@ -1,11 +1,10 @@
 ---
-templateKey: 'blog-post'
-title: '从零开始写博客：搭建免费个人主页'
+templateKey: blog-post
+title: 从零开始写博客：搭建免费个人主页
 date: 2019-07-27T16:40:10.000Z
+description: 免费搭建自己的个人主页
 featuredpost: false
-featuredimage : /img/1564221867706.png
-description: >-
-  免费搭建自己的个人主页
+featuredimage: /img/1564221867706.png
 tags:
   - 建站
   - 个人主页
@@ -173,8 +172,14 @@ cd ..
 
 移动到之前准备的目录（``` D:\project\blog```）后，执行下面的命令，Gatsby 会克隆博客模板并安装模块到 ```gatsby-site``` 这个目录。如果已经在 Netlify 部署过，可以将仓库的地址改为自己 Github 里的博客仓库地址。
 
-``` shell
+```shell
 gatsby new gatsby-site https://github.com/netlify-templates/gatsby-starter-netlify-cms
+```
+
+或者手动克隆Git仓库，这样能保留Git信息
+```shell
+git clone https://github.com/netlify-templates/gatsby-starter-netlify-cms gatsby-site
+npm install
 ```
 
 看到下面的内容就说明部署好了
