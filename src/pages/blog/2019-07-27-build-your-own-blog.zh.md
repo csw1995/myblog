@@ -145,7 +145,7 @@ npm install -g gatsby-cli
 
 显示下列信息即为安装成功
 
-```shell
+```text
 + gatsby-cli@2.7.21
 added 313 packages from 178 contributors in 58.834s
 ```
@@ -184,7 +184,7 @@ npm install
 
 看到下面的内容就说明部署好了
 
-```shell
+```text
 added 2356 packages from 1230 contributors and audited 50105 packages in 115.071s
 ```
 
@@ -261,7 +261,7 @@ gatsby build
 
 看到下面的输出，说明生成完毕，在 ```public``` 目录中可以看到完整的网站
 
-```shell
+```text
 info Done building in 125.186 sec
 ```
 
