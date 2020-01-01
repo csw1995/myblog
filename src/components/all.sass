@@ -121,23 +121,26 @@ $menu-label-color: $white-ter
 .blog-list-item .featured-thumbnail
   flex-basis: 35%;
   margin: 0 1.5em 0 0;
+  min-width: 20%
 
 
 @import "~bulma"
 
+p.post-meta
+  min-width: 80%
 
-// responsiveness
-+tablet-only
-  .blog-list-item .featured-thumbnail
-    flex-basis: 50%;
+// // responsiveness
+// +tablet-only
+//   .blog-list-item .featured-thumbnail
+//     flex-basis: 50%;
 
-+mobile
-  .blog-list-item header
-    display: block
-  .blog-list-item .featured-thumbnail
-    text-align: center;
-    max-width: 70%;
-    margin: 0 0 1em;
+// +mobile
+//   .blog-list-item header
+//     display: block
+//   .blog-list-item .featured-thumbnail
+//     text-align: center;
+//     max-width: 70%;
+//     margin: 0 0 1em;
 
 .content .tag, .content .number
   display: inline

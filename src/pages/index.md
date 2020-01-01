@@ -1,6 +1,6 @@
 ---
 templateKey: index-page
-image: /img/home-jumbotron.jpg
+image: /img/homepage.jpg
 
 title: Blog of csw1995
 description: >-
